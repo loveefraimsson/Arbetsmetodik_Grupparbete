@@ -1,0 +1,177 @@
+/*------------------- Start text + body img -----------------*/
+body{
+    background-image: url("img.png");
+    background-size: cover;
+}
+
+.welcomeBox{
+    margin-top: 25vh;
+    margin-left: 10em;
+    max-width: 50em;
+    color: rgb(255, 255, 255);
+    
+}
+
+.welcomeBox h1{
+    font-size: 3em;
+
+}
+
+.welcomeBox p{
+    font-size: 1.5em;
+}
+
+/*--------------------sidebar---------------------------------*/
+figure img {
+    width: 200px;
+    height: 200px;
+    border: 0.03em solid #000;
+}
+figure{
+    margin: 0;
+    padding-top: 0.5em;
+    text-align: center;
+}
+aside {
+    width: 20%;
+    float: right;
+    background-color: #8266e4;
+    color: #fff;
+    text-align: center;
+    border: 0.1em solid #000;
+}
+
+/*--------------------- Contact form ------------------------*/
+form {
+    background-color: rgba(204, 204, 204, 0.8);
+    width: fit-content;
+    padding: 40px;
+    font-family: arial;
+    border: 1px solid black;
+    border-radius: 4px;
+    margin: 20px auto; 
+}
+
+form label {
+    font-size: 15px;    
+}
+
+form input {
+    padding: 10px;
+    margin: 5px 0px 25px 0px;
+    border: 1px solid black;
+    border-radius: 3px;
+}
+
+form input:hover, textarea:hover, button:hover {
+    background-color: #bfbfbf;
+}
+
+form input:focus, textarea:focus {
+    background-color: #bfbfbf;
+}
+
+/*Remove arrows from number-input Chrome, Safari, Edge, Opera */
+form input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/*Remove arrows from number-input Firefox */
+form input[type=number] {
+  -moz-appearance: textfield;
+}
+
+form textarea {
+    padding: 10px;
+    margin-bottom: 25px;
+    border: 1px solid black;
+}
+
+form button {
+    padding: 6px;
+    font-size: 15px;
+    cursor: pointer;
+    border: 1px solid black;
+    border-radius: 3px;
+}
+
+
+/*------------------------ Header ----------------------*/
+
+
+ul{
+    display: flex;
+    list-style-type: none;
+}
+
+li{
+    padding: 2em;
+}
+
+a{
+    text-decoration: none;
+    font-size: 2em;
+    color: white;
+}
+
+
+/*---------------------- Footer ----------------*/
+footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.363);
+}
+
+footer p {
+    font-size: 1em;
+    color: rgb(255, 255, 255);
+    margin-left: 2em;
+}
+
+footer a{
+    font-size: 1em;
+    color: rgb(255, 255, 255);
+    text-decoration:underline;
+}
+
+
+a:hover{
+    color: rgba(0, 0, 0, 0.466);
+}
+
+/*------------------- img ---------------*/
+
+.imgWork{
+    width: 50%;
+    margin-left: 60em;
+    margin-top: -50em;
+}
+
+.imgPen{
+    width: 25%;
+    margin-top: -50em;
+    margin-bottom: 32em;
+    margin-left: 60em;
+}
+
+/*---------- textBox under startpage ---------*/
+
+.textBox{
+    margin-top: 50vh;
+    margin-left: 10em;
+    max-width: 60em;
+    height: 50em;
+    color: rgb(255, 255, 255);
+}
+
+.textBox h2{
+    font-size: 2em;
+}
+
+.textBox p{
+    font-size: 1.5em;
+}
